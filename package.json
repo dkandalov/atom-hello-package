@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "atom-word-count:toggle"
+    "atom-workspace": ["atom-word-count:toggle", "atom-word-count:convert"]
   },
   "repository": "https://github.com/atom/atom-word-count",
   "license": "MIT",
@@ -14,5 +14,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "figlet": "1.2.0"
   }
 }

@@ -17,6 +17,10 @@
             {
               "label": "Toggle",
               "command": "atom-word-count:toggle"
+            },
+            {
+              "label": "Convert",
+              "command": "atom-word-count:convert"
             }
           ]
         }
