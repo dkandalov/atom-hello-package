@@ -21,6 +21,10 @@
             {
               "label": "Convert",
               "command": "atom-hello-package:convert"
+            },
+            {
+              "label": "Toggle Editor Info",
+              "command": "atom-hello-package:toggle-editor-info"
             }
           ]
         }

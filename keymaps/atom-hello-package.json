@@ -1,6 +1,7 @@
 {
   "atom-workspace": {
     "ctrl-alt-o": "atom-hello-package:toggle",
-    "ctrl-alt-a": "atom-hello-package:convert"
+    "ctrl-alt-a": "atom-hello-package:convert",
+    "ctrl-alt-i": "atom-hello-package:toggle-editor-info"
   }
 }

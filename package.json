@@ -6,7 +6,14 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": ["atom-hello-package:toggle", "atom-hello-package:convert"]
+    "atom-workspace": [
+      "atom-hello-package:toggle",
+      "atom-hello-package:convert",
+      "atom-hello-package:toggle-editor-info"
+    ]
+  },
+  "deserializers": {
+    "atom-hello-package/ActiveEditorInfoView": "deserializeActiveEditorInfoView"
   },
   "repository": "https://github.com/atom/atom-hello-package",
   "license": "MIT",
