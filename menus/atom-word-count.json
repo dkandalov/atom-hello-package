@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-word-count",
+          "label": "Word Count",
           "submenu": [
             {
               "label": "Toggle",

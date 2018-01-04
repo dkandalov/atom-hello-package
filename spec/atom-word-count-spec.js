@@ -43,8 +43,6 @@ describe('AtomWordCount', () => {
     });
 
     it('hides and shows the view', () => {
-      // This test shows you an integration test testing at the view level.
-
       // Attaching the workspaceElement to the DOM is required to allow the
       // `toBeVisible()` matchers to work. Anything testing visibility or focus
       // requires that the workspaceElement is on the DOM. Tests that attach the
@@ -53,13 +51,10 @@ describe('AtomWordCount', () => {
 
       expect(workspaceElement.querySelector('.atom-word-count')).not.toExist();
 
-      // This is an activation event, triggering it causes the package to be
-      // activated.
+      // This is an activation event, triggering it causes the package to be activated.
       atom.commands.dispatch(workspaceElement, 'atom-word-count:toggle');
 
-      waitsForPromise(() => {
-        return activationPromise;
-      });
+      waitsForPromise(() => { return activationPromise; });
 
       runs(() => {
         // Now we can test for view visibility
