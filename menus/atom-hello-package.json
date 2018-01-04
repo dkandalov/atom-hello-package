@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle atom-word-count",
-        "command": "atom-word-count:toggle"
+        "label": "Toggle atom-hello-package",
+        "command": "atom-hello-package:toggle"
       }
     ]
   },
@@ -12,15 +12,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "Word Count",
+          "label": "Hello Package",
           "submenu": [
             {
               "label": "Toggle",
-              "command": "atom-word-count:toggle"
+              "command": "atom-hello-package:toggle"
             },
             {
               "label": "Convert",
-              "command": "atom-word-count:convert"
+              "command": "atom-hello-package:convert"
             }
           ]
         }
